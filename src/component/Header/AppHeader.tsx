@@ -1,7 +1,7 @@
-import React from "react";
-import { Avatar, Layout, Typography } from "antd";
-import { UserOutlined } from "@ant-design/icons";
-import "./Header.css";
+import React from 'react';
+import { Avatar, Layout, Typography } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
+import './Header.css';
 
 const { Header } = Layout;
 const { Title } = Typography;
@@ -12,7 +12,7 @@ type AppHeaderType = {
 
 export const AppHeader = ({ headerName }: AppHeaderType) => {
   return (
-    <Header style={{ backgroundColor: "#F7F8FC", display: "flex", justifyContent: "space-between" }}>
+    <Header style={{ backgroundColor: '#F7F8FC', display: 'flex', justifyContent: 'space-between' }}>
       <Title style={{ margin: 10 }} level={3}>
         {headerName}
       </Title>

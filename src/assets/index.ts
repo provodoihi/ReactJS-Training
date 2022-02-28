@@ -1,2 +1,2 @@
-import Image1 from './Blackpink_animated.jpg'
-export {Image1}
+import Image1 from './Blackpink_animated.jpg';
+export { Image1 };

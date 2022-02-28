@@ -1,1 +1,1 @@
-export * from './AppSider'
+export * from './AppSider';

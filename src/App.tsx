@@ -1,6 +1,6 @@
-import { AppHeader, AppSider, AppContent, AppFooter } from "component";
-import "./App.css";
-import { Layout } from "antd";
+import { AppHeader, AppSider, AppContent, AppFooter } from 'component';
+import './App.css';
+import { Layout } from 'antd';
 
 function App() {
   return (

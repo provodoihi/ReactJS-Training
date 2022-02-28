@@ -27,7 +27,7 @@
     "eject": "react-scripts eject",
     "lint": "tsc --noEmit && eslint \"src/**/*.{js,jsx,ts,tsx\"}",
     "lint:fix": "tsc --noEmit && eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
-    "pre-commit": "npm run prettier && npm run lint",
+    "pre-commit": "yarn prettier && npm run lint",
     "prettier": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json}\"",
     "prettier:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json}\"",
     "prepare": "husky install"
@@ -37,6 +37,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "prettier": {
+    "singleQuote": true
   },
   "browserslist": {
     "production": [

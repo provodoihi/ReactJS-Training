@@ -1,15 +1,15 @@
-import { Layout, Menu, Typography } from "antd";
-import { MENU_ITEMS } from "constants/MenuItems";
+import { Layout, Menu, Typography } from 'antd';
+import { MENU_ITEMS } from 'constants/MenuItems';
 
 const { Sider } = Layout;
 const { Title } = Typography;
 export const AppSider = () => {
   return (
-    <Sider style={{ backgroundColor: "aqua" }} width={200} className="Sider">
+    <Sider style={{ backgroundColor: 'aqua' }} width={200} className="Sider">
       <Title style={{ margin: 10 }} level={3}>
         Dashboard
       </Title>
-      <Menu style={{ backgroundColor: "aqua" }}>
+      <Menu style={{ backgroundColor: 'aqua' }}>
         {MENU_ITEMS.map((item) => {
           return <Menu.Item key={item.key}>{item.value}</Menu.Item>;
         })}
